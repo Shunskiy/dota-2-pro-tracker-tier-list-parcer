@@ -3,7 +3,7 @@
 import config from "./config.js";
 import { parseCliArgs } from "./cli.js";
 import apiService from "./apiService.js";
-import { createHero, handleHeroesArrayByPos } from "./heroes.js";
+import { handleHeroesArrayByPos } from "./heroes.js";
 
 const flags = parseCliArgs();
 const pos = flags.pos;
